@@ -1,4 +1,5 @@
-# lotr-project
+# Lord of the Rings project
+to view visit https://marivoid.github.io/Lord-of-the-Rings/
 
 ## Project setup
 ```
