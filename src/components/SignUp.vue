@@ -3,11 +3,11 @@
     <!-- <div v-bind:style='{ backgroundImage: "url("+ background.jpg + ")", }'></div> -->
     <!-- <img class="logo" src="../assets/logo.svg"/> -->
     <div class="register">
-        <input type="text" placeholder="Enter name" />
-        <input type="text" placeholder="Enter email" />
-        <input type="password" placeholder="Enter password" />
+        <input type="text" v-model="username" placeholder="Enter username" />
+        <input type="text" v-model="email" placeholder="Enter email" />
+        <input type="password" v-model="password" placeholder="Enter password" />
 
-        <button>Sign up</button>
+        <button v-on:click="signUp">Sign up</button>
     </div>
 
     <div class="login-link">
@@ -16,8 +16,33 @@
 </template>
 
 <script>
+import axios from 'axios'
 export default {
-    name: 'SignUp'
+    name: 'SignUp',
+    data() {
+        return {
+            username: '', 
+            email: '', 
+            password: ''
+        }
+    },
+    methods: {
+        //async because it will return the result a bit late otherwise
+        async signUp(){
+            let result = await axios.post("http://localhost:3000/users", {
+                username: this.username,
+                email: this.email,
+                password: this.password
+            });
+            
+            console.log(result);
+            // 201 = something was created, in this case, a new user
+            if(result.status == 201){
+                alert("Sign up was successful.");
+                localStorage.setItem("user-info", JSON.stringify(result.data));
+            }
+        }
+    }
 }
 
 </script>

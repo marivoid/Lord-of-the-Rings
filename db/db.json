@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "username": "marina14",
+      "email": "marina14@test.com",
+      "password": "marina123",
+      "id": 1
+    },
+    {
+      "username": "SimonPeter07",
+      "email": "theSimon@peter.com",
+      "password": "SimonPeter07",
+      "id": 2
+    },
+    {
+      "username": "matthew1422",
+      "email": "taxCollector@matthew.com",
+      "password": "theMatthew1422",
+      "id": 3
+    }
+  ]
+}
