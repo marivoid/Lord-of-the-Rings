@@ -55,8 +55,8 @@ export default {
     transition: 0.75s;
 }
 
-.register {
-    margin-top: 14em;
+.register, .login {
+    margin-top: 10em;
 }
 
 .register input, .login input {

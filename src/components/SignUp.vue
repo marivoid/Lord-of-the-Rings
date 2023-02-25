@@ -2,6 +2,7 @@
     <!-- <img class="background" src="../assets/background.jpg" /> -->
     <!-- <div v-bind:style='{ backgroundImage: "url("+ background.jpg + ")", }'></div> -->
     <!-- <img class="logo" src="../assets/logo.svg"/> -->
+    <h1>Sign up</h1>
     <div class="register">
         <input type="text" v-model="username" placeholder="Enter username" />
         <input type="text" v-model="email" placeholder="Enter email" />
