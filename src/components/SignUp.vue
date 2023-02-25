@@ -38,9 +38,16 @@ export default {
             console.log(result);
             // 201 = something was created, in this case, a new user
             if(result.status == 201){
-                alert("Sign up was successful.");
-                localStorage.setItem("user-info", JSON.stringify(result.data));
+                localStorage.setItem("user-credentials", JSON.stringify(result.data));
+                this.$router.push({name: 'HomePage'});
             }
+        }
+    },
+    // life-cycle method
+    mounted(){
+        let user = localStorage.getItem('user-credentials');
+        if(user){
+            this.$router.push({name: 'HomePage'});
         }
     }
 }

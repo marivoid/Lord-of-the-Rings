@@ -17,6 +17,18 @@
       "email": "taxCollector@matthew.com",
       "password": "theMatthew1422",
       "id": 3
+    },
+    {
+      "username": "onemoreuser",
+      "email": "onemore@user.com",
+      "password": "onemoreuser123",
+      "id": 4
+    },
+    {
+      "username": "john",
+      "email": "johnthe@baptist.com",
+      "password": "johnthebaptist",
+      "id": 5
     }
   ]
 }
