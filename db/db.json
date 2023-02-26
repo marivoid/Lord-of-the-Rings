@@ -25,7 +25,6 @@
       "id": 4
     }
   ],
-
   "trivia": [
     {
       "id": 1,
@@ -36,6 +35,11 @@
       "id": 2,
       "title": "The perfect timing",
       "content": "A scene in Two Towers where Eowyn is surveying the land of Rohan and then, due to strong winds, the Rohan flag is torn away signifiying both hers's and Rohan lowly state forever creating an iconic and awesome scene from the movie. The flag being torn away was completely by accident yet the director thought it was perfect and kept it in. Gotta love small details like these."
+    },
+    {
+      "title": "Sean Bean's fear",
+      "content": "Sean Bean (actor for Boromir) had a fear which prevented him from riding the helicopter to set every day. Instead, he opted for climbing the mountains of New Zealand in order to reach the set which was on the top of the mountain. At least by the time he got there, he looked exhausted which was perfect for this role as his character travelled a lot. It gave a more realistic vibe ig lol.",
+      "id": 3
     }
   ]
 }

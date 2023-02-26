@@ -65,7 +65,7 @@ body {
     margin-top: 10em;
 }
 
-.register input, .login input {
+.register input, .login input, {
     width: 300px;
     height: 40px;
     padding-left: 20px;
@@ -79,7 +79,7 @@ body {
     border: 0.5px solid rgb(121, 121, 121);
 }
 
-.register button, .login button {
+.register button, .login button, {
     width: 280px;
     height: 40px;
     border: none;

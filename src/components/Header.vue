@@ -1,8 +1,7 @@
 <template>
     <div class="nav">
         <a v-on:click="logout" href="#">Logout</a>
-        <router-link to="/addTrivia">Trivia</router-link>
-        <router-link to="/about">About</router-link>
+        <router-link to="/addTrivia">Add trivia</router-link>
         <router-link to="/">Home</router-link>
     </div>
 </template>
