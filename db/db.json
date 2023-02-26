@@ -19,16 +19,23 @@
       "id": 3
     },
     {
-      "username": "onemoreuser",
-      "email": "onemore@user.com",
-      "password": "onemoreuser123",
-      "id": 4
-    },
-    {
       "username": "john",
       "email": "johnthe@baptist.com",
       "password": "johnthebaptist",
-      "id": 5
+      "id": 4
+    }
+  ],
+
+  "trivia": [
+    {
+      "id": 1,
+      "title": "RIP Aragorn's toes",
+      "content": "While filming the scene where Aragorn, Legolas and Gimli find the pile of slain orcs, Aragorn kicks a helmet of one of the orcs in dispair believing the hobbits Pippin and Merry were amongst the dead. The actor, after kicking the helmet, lets out a scream. This isn't to show Aragorn's sorrow, but rather the actor had broken two of his toes while repeatedly kicking the helmet in order to get the scene right. Pray for Viggo Mortensen's toes lmao."
+    },
+    {
+      "id": 2,
+      "title": "The perfect timing",
+      "content": "A scene in Two Towers where Eowyn is surveying the land of Rohan and then, due to strong winds, the Rohan flag is torn away signifiying both hers's and Rohan lowly state forever creating an iconic and awesome scene from the movie. The flag being torn away was completely by accident yet the director thought it was perfect and kept it in. Gotta love small details like these."
     }
   ]
 }
